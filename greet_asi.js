@@ -11,7 +11,7 @@ figlet('Asi', function (err, data) {
       console.dir(err);
       return;
     }
-    console.log(data);
+    // console.log(data);
   });
 
 console.log(chalk.bgCyan.rgb(123, 45, 67).underline('Hello world!'));
